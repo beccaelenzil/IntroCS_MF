@@ -31,8 +31,16 @@ def checkends(word):
 
 def flipside(word):
     length = len(word)
-    if length %2 == 0:
-        return word[length/2:]+word[length/2]
-else: 
+    return word[length/2:]+word[:length/2]
+print flipside('homework')
 
+def convertFromSeconds( s ):
+    days = s / (24*60*60)  # # of days
+    s = s % (24*60*60)     # the leftover
+    hours = s / (60*60)
+    s = s % (60*60)
+    minutes = s / 60
+    seconds = s % (60*60)
+    return [days, hours, minutes, seconds]
+print convertFromSeconds (200000)
 
