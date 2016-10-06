@@ -25,7 +25,7 @@ def power(b,p):
     result = 1
     for x in range(p):
         result = result*b
-        print result
+        #print result
     return result
 
 
@@ -64,8 +64,8 @@ print mult(6,7)
 
 
 def count_evens():
-    result =
-    if
+    result = 0
+    #if
 
 
 
