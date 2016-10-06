@@ -40,7 +40,7 @@ def convertFromSeconds( s ):
     hours = s / (60*60)
     s = s % (60*60)
     minutes = s / 60
-    seconds = s % (60*60)
+    seconds = s % (60*60) #There's an extra *60
     return [days, hours, minutes, seconds]
 print convertFromSeconds (200000)
 

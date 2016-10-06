@@ -1,5 +1,5 @@
 Total Score: 7/9
-Notes: See notes below
+Notes: No corrections made. Please see me to understand your mistakes.
 -------------------------------------
 Problem 1 --- Score: 3/3
 Notes: Nice work!
@@ -47,3 +47,6 @@ convertFromSeconds(610) == [0, 0, 10, 10]:  [0, 0, 10, 610] False
 front3('Java') == 'JavJavJav':  JavJavJav True
 front3('Chocolate') == 'ChoChoCho':  ChoChoCho True
 front3('abc') == 'abcabcabc':  abcabcabc True
+
+
+
