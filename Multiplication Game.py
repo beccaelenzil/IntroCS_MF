@@ -1,10 +1,10 @@
-
+import random
 
 def instruction():
     print "Hi, I am Eric. Were going to practice Multiplication!"
 
 def play():
-    import random
+    score = 0
     for i in range(5):
         userAnswer = -1
         factor1 = random.randint(0,15)
@@ -18,6 +18,8 @@ def play():
                 userAnswer = int(userAnswer)
                 if userAnswer == correctAnswer:
                     print "correct"
+                    score +=1
+                    print "your score is",score
                 else:
                     print "incorrect"
             except:
