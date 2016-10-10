@@ -1,4 +1,4 @@
-Total Score:
+Total Score: 5/9
 Notes:
 -------------------------------------
 Problem 1) For Loops --- Score: 1.5/3
@@ -22,9 +22,11 @@ mult(0,7)     0 == 0 True
 mult(0,0)     0 == 0 True
 
 -------------------------------------
-Problem 2) Multiplication Practice Game --- Score:
-Notes:
+Problem 2) Multiplication Practice Game --- Score: 1.5/3
+Notes: There is no enhancement
 
 -------------------------------------
-Problem 3) Guess My Number --- Score:
-Notes:
+Problem 3) Guess My Number --- Score: 2/3
+Notes: There is no enhancement
+
+You should let the player know what the range is
