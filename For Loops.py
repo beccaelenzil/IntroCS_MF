@@ -59,20 +59,46 @@ print "mult(6,0)     0 ==", mult(6,0)
 print "mult(0,7)     0 ==", mult(0,7)
 print "mult(0,0)     0 ==", mult(0,0)
 
-
 print mult(6,7)
 
 
-def count_evens():
-    result = 0
-    #if
 
+def dot(l,k):
+    result = 0
+    if len(l) !=len(k):
+        return 0
+    else:
+        for i in range(len(l)):
+            result +=l[i]*k[i]
+        return result
+    
+print "dot( [5,3], [6,4] )     42.0 ==", dot( [5,3], [6,4] )
+print "dot( [1,2,3,4], [10,100,1000,10000] )  43210.0 ==", dot( [1,2,3,4], [10,100,1000,10000] )
+print "dot( [5,3], [6] )        0.0 ==", dot( [5,3], [6] )
+print "dot( [], [6] )           0.0 ==", dot( [], [6] )
+print "dot( [], [] )            0.0 ==", dot( [], [] )
+
+
+def count_evens(l):
+    count = 0
+    for x in l:
+        if x % 2 == 0:
+            count += 1
+    return count
 
 
 print "count_evens([2, 1, 2, 3, 4], 3 == ", count_evens([2, 1, 2, 3, 4])
 print "count_evens([2, 2, 0]), 3 == ", count_evens([2, 2, 0])
 print "count_evens([1, 3, 5]), 0 == ", count_evens([1, 3, 5])
 
+
+
+def count9(L):
+    result = 0
+    for x in L:
+        if x%9 == 0:
+            result += 1
+        return result
 
 
 
