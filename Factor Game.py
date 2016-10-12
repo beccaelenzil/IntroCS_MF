@@ -4,27 +4,29 @@ def instructions():
     print "Can guess the factorization of this number?"
 
 def play(score):
-    for i in range(2):
+    for i in range(5):
         userAnswer = -1
         factor1 = random.randint (2, 12)
         factor2 = random.randint (2, 12)
         correctAnswer = factor1 * factor2
-        #while userAnswer != correctAnswer:
 
-        # input 2 numbers
+
         userFactor1 = raw_input("please enter one factor of "+str(factor1*factor2)+": ")
         while userFactor1.isdigit() == False:
             userFactor1 = raw_input("please enter one factor of "+str(factor1*factor2)+": ")
-        userFactor2 = raw_input('please enter the other factor: ')
+        userFactor2 = raw_input("please enter the other factor of "+str(factor1*factor2)+":")
         while userFactor2.isdigit() == False:
-            userFactor2 = raw_input('please enter the other factor: ')
+           userFactor2 = raw_input("please enter the other factor of "+str(factor1*factor2)+":")
 
 
         userFactor1 = int(userFactor1)
         userFactor2 = int(userFactor2)
 
         userAnswer = userFactor1 * userFactor2
-        if userAnswer == correctAnswer:
+
+        if userFactor1 == 1 or userFactor2 == 1:
+            print "No 1s allowed!"
+        elif userAnswer == correctAnswer:
             print "correct!"
             score += 1
             print "your score is", score
