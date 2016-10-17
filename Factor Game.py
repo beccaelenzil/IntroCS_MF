@@ -4,6 +4,10 @@ def instructions():
     print "Can guess the factorization of this number?"
 
 def play(score):
+    """
+    input: score
+    output: playagain and updated score
+    """
     for i in range(5):
         userAnswer = -1
         factor1 = random.randint (2, 12)
@@ -40,6 +44,9 @@ def play(score):
     return [playagain, score]
 
 def main():
+    """
+    #docstring
+    """
     score = 0
     instructions()
     [playagain, score] = play(score)
