@@ -94,11 +94,12 @@ print "count_evens([1, 3, 5]), 0 == ", count_evens([1, 3, 5])
 
 
 def count9(L):
-    result = 0
-    for x in L:
-        if x%9 == 0:
-            result += 1
-        return result
+    result = 0
+    for x in L:
+        if x%9 == 0:
+            result += 1
+    #this line was tabbed too far in so it did not return the correct value
+    return result
 
 
 

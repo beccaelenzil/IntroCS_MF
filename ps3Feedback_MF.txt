@@ -2,7 +2,8 @@ Total Score: 5/9
 Notes:
 -------------------------------------
 Problem 1) For Loops --- Score: 1.5/3
-Notes: You need to complete dot(), count_events(), and count9()
+score increased to 2/3 (10/17/16)
+Notes: You are missing summedOdds(), and there was a tabbing issue with count9() (see notes in code)
 
 power(2,5): should be 32 ==  32 True
 power(5,2): should be 25 ==  25 True
@@ -11,8 +12,6 @@ power(0,42): should be 0 ==  0 True
 power(0,0): should be 1 ==  1 True
 
 
-summedOdds( [4,5,6] ): should be 5 ==  5 True
-summedOdds( range(3,10) ): should be 24 ==  24 True
 
 mult(6,7)    42 == 42 True
 mult(6,-7)  -42 == -42 True
@@ -25,6 +24,8 @@ mult(0,0)     0 == 0 True
 -------------------------------------
 Problem 2) Multiplication Practice Game --- Score: 1.5/3
 Notes: There is no enhancement
+
+Nice addition of score enhancement, score changed to 3/3
 
 -------------------------------------
 Problem 3) Guess My Number --- Score: 2/3
