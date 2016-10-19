@@ -19,3 +19,6 @@ def fibter(n):
             fibseq.append(fibseq[i-1]+fibseq[i-2])
             print fibseq[-1]
         return fibseq[-1]
+
+def listReverse(L)
+    
