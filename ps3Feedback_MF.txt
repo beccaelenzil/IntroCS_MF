@@ -1,5 +1,5 @@
 Total Score: 5/9
-Notes:
+Notes: Score increased to 7/9
 -------------------------------------
 Problem 1) For Loops --- Score: 1.5/3
 score increased to 2/3 (10/17/16)
@@ -32,3 +32,6 @@ Problem 3) Guess My Number --- Score: 2/3
 Notes: There is no enhancement
 
 You should let the player know what the range is
+
+10/18
+The game does not work because you did not convert low and high from strings to ints.
