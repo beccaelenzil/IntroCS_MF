@@ -24,5 +24,5 @@ def rwsteps( start, low, hi ):
     while currentposition <= hi and currentposition >=low:
         ls = currentposition - lo - 1
         rs = hi - currentposition
-        
+    print
 

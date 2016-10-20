@@ -20,5 +20,20 @@ def fibter(n):
             print fibseq[-1]
         return fibseq[-1]
 
-def listReverse(L)
+
+def listReverseiter(L):
+    K = []
+    for i in range (len(l)-1,-1,-1):
+        K.append(l[i])
+    return k
+
+def listReverse9(L):
+    if len(L)== 1:
+        return L
+    else:
+    return L[-1] + list Reverse(L[0:-1])
+
+
+https://trinket.io/library/trinkets/3b87f47b58
+
     
