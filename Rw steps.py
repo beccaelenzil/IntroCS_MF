@@ -13,7 +13,7 @@ def rwpos(start, nsteps):
     currentPosition = start
     for i in range (0, nsteps):
         currentPosition = currentPosition + rs()
-        print "curent position is " + str(currentPosition)
+        print "current position is " + str(currentPosition)
     return currentPosition
 
 rwpos( 40, 4 )
@@ -21,4 +21,8 @@ rwpos( 40, 4 )
 
 def rwsteps( start, low, hi ):
     currentposition = start
-    for i in range (low, hi)
+    while currentposition <= hi and currentposition >=low:
+        ls = currentposition - lo - 1
+        rs = hi - currentposition
+        
+
