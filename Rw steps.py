@@ -16,13 +16,36 @@ def rwpos(start, nsteps):
         print "current position is " + str(currentPosition)
     return currentPosition
 
-rwpos( 40, 4 )
+#rwpos( 40, 4 )
 
 
-def rwsteps( start, low, hi ):
+def rwsteps( start, lo, hi ):
     currentposition = start
-    while currentposition <= hi and currentposition >=low:
-        ls = currentposition - lo - 1
-        rs = hi - currentposition
-    print
+    count = 0
+    while currentposition < hi and currentposition > lo:
+        right = currentposition - lo - 1
+        left = hi - currentposition
+        print "|"+right*" "+"S"+left*" "+"|"
+        currentposition += rs()
+        count += 1
+    return count
 
+
+#print rwsteps(10,5,15)
+
+
+def rwposPlain(start, nsteps):
+    currentPosition = start
+    for i in range (0, nsteps):
+        currentPosition = currentPosition + rs()
+    return currentPosition
+
+print rwposPlain( 20, 4 )
+
+def ave_signed_displacement( numtrials ):
+    for i in range(numtrials):
+        L[]
+        for i in range(numtrials):
+            currentPos = rwPosPlain(0,100)
+            L.append(currentPos)
+            return
