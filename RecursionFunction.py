@@ -8,7 +8,7 @@ def fib(n):
         return fib(n-2)+fib(n-1)
 
 
-def fibter(n):
+def fibIter(n):
     fibseq = [0,1]
     if n == 1:
         return 0
@@ -28,7 +28,7 @@ def listReverseiter(l):
         K.append(l[i])
     return K
 
-def listReverse9(L):
+def listReverse(L):
     if len(L)== 1:
         return L
     #else:
