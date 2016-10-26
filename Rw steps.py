@@ -42,6 +42,8 @@ def rwposPlain(start, nsteps):
 
 print rwposPlain( 20, 4 )
 
+rwsteps(5,0,10)
+'''
 def ave_signed_displacement( numtrials ):
     for i in range(numtrials):
         L[]
@@ -49,3 +51,5 @@ def ave_signed_displacement( numtrials ):
             currentPos = rwPosPlain(0,100)
             L.append(currentPos)
             return
+
+'''
