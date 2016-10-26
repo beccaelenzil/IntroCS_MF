@@ -22,17 +22,17 @@ def fibter(n):
 
 
 #There were a number of mismatching cases that made this not run. I fixed them for you.
-def listReverseiter(l):
+def listReverseIter(l):
     K = []
     for i in range (len(l)-1,-1,-1):
         K.append(l[i])
     return K
 
-def listReverse9(L):
+def listReverse(L):
     if len(L)== 1:
         return L
     #else:
-    return L[-1] + listReverse9(L[0:-1])
+    return L[-1] + listReverse(L[0:-1])
 
 
 

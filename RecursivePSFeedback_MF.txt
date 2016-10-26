@@ -1,1 +1,18 @@
-Total Score:
+Total Score:  3/6
+Notes:
+-------------------------------------
+Problem 1) Recursive Drawing: 1/3
+Notes: you need to complete spiral() and chai()
+
+-------------------------------------
+Problem 2) Recursive Functions: 2/3
+Notes: There are still issues with listReverse that keep it from running
+
+# Fibonnaci Tests
+fib(5) == 5 =  8  :  False
+fib(11) == 89 =  144  :  False
+fibIter(5) == 5 =  5  :  True
+fibIter(11) == 89 =  89  :  True
+
+# List Reverse Tests
+listReverse([1,2,3,4]) == [4,3,2,1] =
