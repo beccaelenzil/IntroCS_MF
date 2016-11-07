@@ -42,7 +42,10 @@ def rwposPlain(start, nsteps):
 
 print rwposPlain( 20, 4 )
 
+rwsteps(5,0,10)
+'''
 def ave_signed_displacement( numtrials ):
+<<<<<<< HEAD
     '''
     takes in number of sims of 100 steps returns average distance from start
     '''
@@ -60,3 +63,13 @@ def ave_sq_d(numtrials):
         posList.append(pos**2)
     avePos = sum(posList) / numtrials
     return avePos
+=======
+    for i in range(numtrials):
+        L[]
+        for i in range(numtrials):
+            currentPos = rwPosPlain(0,100)
+            L.append(currentPos)
+            return
+
+'''
+>>>>>>> origin/master
