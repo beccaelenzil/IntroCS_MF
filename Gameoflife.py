@@ -67,13 +67,15 @@ def innerCells(width, height):
     """
     A = createBoard(width, height)
 
-    for row in range(height):
-        for col in range(width):
+    for row in range(1, height-1):
+        for col in range( 1, width -1):
             if row == col:
                 A[row][col] = 1
             else:
                 A[row][col] = 0
 
     return A
+
+
 
 
